@@ -1,0 +1,113 @@
+/***GLOBAL CSS****/
+
+:root{
+    --bg-gray:#707070;
+    --black:#000;
+    --text-w:#ffffff;
+    --ylo--:#FFF94F;
+    }
+a{
+    text-decoration: none;
+    color: var(--text-w);
+    
+}
+/***HEADER CSS****/
+.nav-link {
+    color: #ffffff;
+    border-radius: 5px;
+  }
+.menu .nav-item a{
+    transition: all 0.5s;
+  }
+
+.menu .nav-item a:hover   {
+    background: #565555 !important;
+    color: #f8f8f8;
+    margin-right: 5px;        
+  }
+.sld-card{ 
+    width: 100px;
+    height: 150px;
+    max-width: 100px;
+    max-height: 150px;
+    overflow: hidden;   
+}
+.sld-card img { 
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;         
+}
+/************ Main Contebt Styling        **********/
+.main-title{
+    font-size: 20px;
+    color: #ffffff;
+}
+.p-card{
+    height:500px ;
+    min-height:500px ;    
+    cursor: pointer;
+}
+.card-img{
+    min-width: 260px;
+    height: 390px;
+    overflow: hidden;
+    background: #ff07a4;
+    
+    
+}
+.card-img img{     
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+        
+}
+.p-card:hover .card-img img {
+    transform: scale(1.1);
+}
+.box{
+    border: #ff07a4 1px solid ;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 100%;
+    background: #000;  
+    transition: .5s;  
+}
+.p-card:hover .box {
+    border: #00ff04 1px solid ;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 100%;
+    background: #ffffff; 
+
+}
+.error-box{
+    background: #00f884 !important;
+    min-height: 800px !important;
+}
+/*Download Page css*/  
+
+.name {
+    font-size: 20px;
+}
+
+.img-wh-100 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.br-1{
+    border-radius: 4px;
+}
+.br-2{
+    border-radius: 8px;
+}
+.br-3{
+    border-radius: 12px;
+}
+.br-4{
+    border-radius: 16px;
+}
+.br-5{
+    border-radius: 20px;
+}
